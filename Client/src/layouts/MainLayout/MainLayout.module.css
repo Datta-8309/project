@@ -1,0 +1,41 @@
+/* src/layouts/MainLayout/MainLayout.module.css */
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #1a1a1a;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+
+.main {
+  flex: 1;
+}

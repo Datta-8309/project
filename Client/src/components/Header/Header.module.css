@@ -1,0 +1,10 @@
+/* src/components/Header/Header.module.css */
+.header {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
